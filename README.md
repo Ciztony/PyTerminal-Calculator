@@ -1,4 +1,4 @@
-# TerminalCalculator
+# Python-Terminal-Calculator
 
 Simply type an expression and the code will spit out its parsed token array, its postfix and the evaluated result.
 
