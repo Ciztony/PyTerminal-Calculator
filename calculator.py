@@ -52,7 +52,6 @@ def validateRawInputString(rawInputString):
       sys.exit("SYNTAX ERROR: Decimal syntax invalid") # Check if there are invalid characters around the decimal point
   
   def acceptableTokenEnclosingAroundOperator(before,after):
-    print(before, after)
     if before == "(" or not before.isnumeric():
       sys.exit("SYNTAX Error: Unacceptable syntax around operator")
     if after == ")" or not after.isnumeric():
