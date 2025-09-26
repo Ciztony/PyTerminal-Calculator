@@ -1,5 +1,7 @@
 # PyTerminal-Calculator
 
+![Python Version](https://img.shields.io/badge/python-3.12.2-blue)
+
 Simply type an expression and the code will spit out its parsed token array, its postfix and the evaluated result.
 
 The result displays both **integers**, **floats** and **fractions** when applicable.
